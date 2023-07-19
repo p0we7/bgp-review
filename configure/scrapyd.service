@@ -1,0 +1,13 @@
+[Unit]
+Description=Scrapyd service
+After=network.target
+
+[Service]
+#User=caddy
+#Group=caddy
+WorkingDirectory=/usr/share/caddy/bgp/bgp_bots
+ExecStart=/root/.pyenv/shims/scrapyd
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

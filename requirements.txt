@@ -1,0 +1,9 @@
+requests
+retrying
+dnspython
+Django>=3.0.7
+gunicorn>=20.0.4
+mysqlclient>=1.4.6
+Scrapy>=2.1.0
+scrapy-splash>=0.7.2
+scrapyd>=1.2.1
